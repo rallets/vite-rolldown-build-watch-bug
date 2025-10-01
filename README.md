@@ -1,4 +1,6 @@
-# vite-plugin-svelte-bug-1186
+# vite-rolldown-build-watch-bug
+
+<https://github.com/vitejs/rolldown-vite/issues/437>
 
 In the root of this repository, run
 > npm i
