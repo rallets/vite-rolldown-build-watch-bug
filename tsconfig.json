@@ -1,0 +1,20 @@
+// be aware that rollup typescript plugin also has his own settings that could override these
+{
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": [
+        "App/*",
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "wwwroot/*",
+        ".vscode/*",
+        "App/**/vite.build.mjs"
+    ],
+    "compilerOptions": {
+        "target": "ES2022",
+        "isolatedModules": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noUncheckedSideEffectImports": true,
+    },
+}

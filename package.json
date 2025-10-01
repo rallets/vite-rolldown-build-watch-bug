@@ -1,0 +1,25 @@
+{
+    "name": "vite-plugin-svelte-bug-1186",
+    "description": "vite-plugin-svelte-bug-1186",
+    "version": "1.0.0",
+    "private": true,
+	"type": "module",
+    "scripts": {
+        "build": "cross-env NODE_ENV=production MODE=production node ./App/pipeline/vite.build.mjs",
+        "dev": "cross-env NODE_ENV=development MODE=development node ./App/pipeline/vite.build.mjs"
+    },
+    "dependencies": {
+			},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"@tsconfig/svelte": "^5.0.5",
+		"cross-env": "^10.1.0",
+		"sass": "^1.89.2",
+		"svelte": "^5.39.7",
+		"svelte-check": "^4.3.2",
+		"svelte-preprocess": "^6.0.3",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.3",
+		"vite": "npm:rolldown-vite@7.1.14"
+	}
+}
